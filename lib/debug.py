@@ -8,6 +8,9 @@ def reset_database():
     Song.create("Hello", "25")
     Song.create("99 Problems", "The Black Album")
 
+reset_database()
+
+import pytest; pytest.set_trace()
 
 if __name__ == '__main__':
     reset_database()
